@@ -1,0 +1,53 @@
+@media (max-width:600px)
+ {
+    .container 
+    {
+        grid-template: 50px 30px 1fr 30px/repeat(3,1fr);
+    }
+    .post-article
+      {
+        flex:1 100px;
+        height: 110px;
+      }
+     
+    
+  }
+@media (min-width: 600px) and (max-width:900px) 
+{
+  .container
+    {
+        display: grid;
+        grid-template: 70px 50px 1fr 50px/repeat(3,1fr);
+        grid-gap: 2px;
+        align-items: center;
+    }
+  .home-article
+  {
+      flex: 1 600px;
+      padding: 10px;
+  }
+  .post-container
+    {
+      grid-template:70px 300px 30px/repeat(3,1fr) ; 
+    }
+    .post-header
+    {
+      line-height: 60px;
+    }
+    /* .post-section
+    {
+      flex-wrap: wrap;
+    }
+    .post-article
+    {
+        flex:12
+    } */
+}
+  
+@media (min-width:901px)
+ {
+    .container 
+    {
+        grid-template: 100px 70px 1fr 70px/repeat(3,1fr);
+    }
+  }
