@@ -67,7 +67,10 @@ footer
         background-color: cornsilk;
     }
  
- 
+ .home-article
+    {
+        flex: 1;
+    }
  .read-more-btn
     {
         background-image: linear-gradient(to right, #1c03b5,#5c8bef );
