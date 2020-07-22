@@ -1,7 +1,8 @@
 .post-container
     {
+        height: 100vh;;
         display: grid;
-        grid-template:1fr 1fr 1fr/repeat(3,1fr) ;
+        grid-template:70px 1fr 70px/repeat(3,1fr) ;
     }
 
 .post-section
